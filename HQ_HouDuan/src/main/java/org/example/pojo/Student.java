@@ -1,10 +1,13 @@
 package org.example.pojo;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
-@Setter
-@Getter
+/**
+ * 学生实体类
+ */
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Student {
     private String name;
     private Integer id;
