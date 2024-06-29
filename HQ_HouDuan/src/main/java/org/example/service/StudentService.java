@@ -12,5 +12,4 @@ public interface StudentService {
 
     void removeById(int id);
 
-    void updateById(Student student);
 }
